@@ -19,8 +19,8 @@ public class Boletin14 {
           ConversorTemperaturas conv1 = new ConversorTemperaturas();
         
         try{
-            System.out.println("A cantidade en graos fharenheit é de " + conv1.CaF(85));
-            System.out.println("A cantidade en graos reaumur é de " + conv1.CaR(55));
+            System.out.println("graos fharenheit: " + conv1.CaF(85));
+            System.out.println("graos reaumur: " + conv1.CaR(55));
         }
         catch (TemperaturaErradaException e){
             System.out.println(e.toString());
